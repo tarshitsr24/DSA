@@ -19,11 +19,12 @@ public:
                 zero_count = zero_count + 1;
             }         
         }
-        if (zero_count == 0){
-            return x*sum;
-        }
-        else{
-            return x*sum;
-        }
+        // if (zero_count == 0){
+        //     return x*sum;
+        // }
+        // else{
+        //     return x*sum;
+        // }
+        return x*sum;
     }
 };
