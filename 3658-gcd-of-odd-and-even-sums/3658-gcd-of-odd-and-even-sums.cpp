@@ -7,8 +7,8 @@ public:
         while(odd_sum!=0){
             temp = odd_sum;
             odd_sum = even_sum % odd_sum;
+            even_sum=temp;
         }
-        return temp;
-        
+        return even_sum; 
     }
 };
