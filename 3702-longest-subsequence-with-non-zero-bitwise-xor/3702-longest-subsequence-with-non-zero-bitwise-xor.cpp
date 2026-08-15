@@ -18,14 +18,7 @@ public:
             return count;
         }
         else{
-            for(int i = 1; i<nums.size(); i++){
-                if(nums[i] != 0){
-                    nums.erase(nums.begin()+i);
-                    break;
-                }
-            }
-            count--;
-            return count;
+            return count-1;
         }
         
     }
