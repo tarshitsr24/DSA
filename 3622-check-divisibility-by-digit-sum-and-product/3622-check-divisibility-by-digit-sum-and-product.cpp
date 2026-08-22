@@ -4,7 +4,6 @@ public:
         int sum = 0;
         int pro = 1;
         int m = n;
-        // int len = (to_string(n)).length();
         while(m!=0){
             sum += m%10;
             pro = pro * (m%10);
