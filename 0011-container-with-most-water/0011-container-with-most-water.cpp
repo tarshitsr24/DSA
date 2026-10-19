@@ -5,10 +5,8 @@ public:
         int n = height.size();
         int left = 0;
         int right = n-1;
-        int capacity = 0;
         while(left<right){
-            capacity = (right-left) * min(height[left], height[right]);
-            maxWater = max(maxWater, capacity);
+            maxWater = max(maxWater, ((right-left) * min(height[left], height[right])));
             if(height[left]<height[right]){
                 left++;
             }
